@@ -3,15 +3,13 @@ Tic-Tac-Toe is a simple and brain-friendly multiplayer game.
 
 ### Gameplay
 * The goal of tic-tac-toe is to be the first player to get three in a row on a 3-by-3 grid.
-
   **like this**  here **"O"** is the winner <br>
-
   <img src="win.png" width="200" height="200" >
 
 * Part of  game is trying to figure out how to get three **X** in a row. 
   Then trying to Stop Another Player or computer from getting three **O** in a row.
 
-* After you put an **X** in a square, you start looking ahead. Where's the best place for your next **X**? 
+* After you put an **X** in a square, you start looking ahead. Where's the best place for your next **X**?  
   You look at the empty squares and decide which ones are good choices which ones might let you make three **X**s in a row.
 
 * The first player to get 3 of her marks in a row 
@@ -39,7 +37,7 @@ Tic-Tac-Toe is a simple and brain-friendly multiplayer game.
 
    <img src="steps.png" width="200" height="200" >
 
-4.  **Step 3:** Keep alternating moves until one of the players has stricks a row of three symbols otherwise, no one wins a game is a tie match.
+4.  **Step 4:** Keep alternating moves until one of the players has stricks a row of three symbols otherwise, no one wins a game is a tie match.
 
     **ex: it is tie**<br>
     <img src="tie1.png" width="200" height="200" >
