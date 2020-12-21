@@ -5,7 +5,8 @@ Tic-Tac-Toe is a simple and brain-friendly multiplayer game.
 * The goal of tic-tac-toe is to be the first player to get three in a row on a 3-by-3 grid.
 
 **like this**  here **"O"** is the winner <br>
-<img src="win.png" width="200" height="200" >
+
+  <img src="win.png" width="200" height="200" >
 
 * Part of  game is trying to figure out how to get three **X** in a row. Then trying to Stop Another Player or computer from getting three **O** in a row.
 
