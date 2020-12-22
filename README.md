@@ -7,7 +7,7 @@ Tic-Tac-Toe is a simple and brain-friendly multiplayer game.
   <img src="win.png" width="200" height="200" >
 
 * Part of  game is trying to figure out how to get three **X** in a row. 
-  Then trying to Stop Another Player or computer from getting three **O** in a row.
+  Then trying to Stop Another Player or Ai from getting three **O** in a row.
 
 * After you put an **X** in a square, you start looking ahead. Where's the best place for your next **X**?  
   You look at the empty squares and decide which ones are good choices which ones might let you make three **X**s in a row.
