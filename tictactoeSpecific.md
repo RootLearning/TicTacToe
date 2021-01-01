@@ -40,6 +40,21 @@ c1 |c2 | c3
 1 | 1*0 | 1*1 | 1*2
 2 | 2*0 | 2*1 | 2*2
 
+(Available states:Full state,Win state,Draw state)
+
+* **Current state != Winning state** &&
+
+ **Current state != Full state** && 
+ 
+**Current state != Draw state**, the game can be **continued**.
+
+If **Current state == Win state** ||
+
+**Current state == Draw state**||
+
+**Current state == Full state**,  the game **ends**.
+
+
 
 
 * First, write a program to select a random player who is going to get the chance to play first.
@@ -48,7 +63,7 @@ c1 |c2 | c3
 
 * Fill a square respective to the given input value.
 
-* **Possibilities for 1D array input** -It can be any integer values  between 1 to 6.
+* **Possibilities for 1D array input** -It can be any integer values  between 0 to 8.
 
 * **Possibilities for 2D array input** -Get both row value and  columm value as a input.(Example- Row-0,coloumn-2).
  
@@ -58,21 +73,25 @@ c1 |c2 | c3
  (1,0) (1,1) (1,2)  
  (2,0) (2,1) (2,2)
 
+ * check the state.
+
  * After the first player filled a square, the second player gets the chance to fill a square.
 
  * Get the value as an input from the second player and then fill a square respective to the input value.
 
- * Check the state for winning possibility.
+ * Check the state.
 
- * If the winning state is not attained, again get input from the first player and fill.
+
+
+ * If the game continues,get input from the first player and fill.
 
  * Get input from the second player and fill.
 
- * Check the state and the cycle goes on until the winning state or draw state.
+ * Check the state and the cycle goes on until the game ends.
 
- * When all the places are filled and no one attains the winning state, it's a **Draw**.
+ * When all the places are filled and no one attains the winning state, it's a **Draw state**.
 
- * If a player reached the winning state, display the result which player wins!
+ * If a player reached the end state, display the result!
 
 
 
