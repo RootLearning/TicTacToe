@@ -94,7 +94,7 @@ Get the input from the selected 1st player.
  Display the possible input values while getting user input.
 
 
-### Check for repeatation in input:
+### Check for repetition in input:
 
 Check if the input given by the user already exists or not.
 
